@@ -7,11 +7,11 @@ import spock.lang.Specification
 
 class PluginSpec extends Specification implements GrailsUnitTest, AutowiredTest {
 
-	MappingContext grailsDomainClassMappingContext
+    MappingContext grailsDomainClassMappingContext
 
     void 'test injection'() {
         expect:
-    	grailsDomainClassMappingContext
+        grailsDomainClassMappingContext
     }
 
     Set<String> getIncludePlugins() {
